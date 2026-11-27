@@ -14,6 +14,7 @@ from app.services.improve_task import ImproveTaskService
 from app.services.external_eval import ExternalEvalService
 from app.services.course_group import CourseGroupService
 from app.services.syllabus_rev import SyllabusRevService
+from app.services.topic_group import TopicGroupService
 from app.services.teach_award import TeachAwardService
 from app.services.lesson_prep import LessonPrepService
 from app.services.mentor_pair import MentorPairService
@@ -36,6 +37,7 @@ SERVICES: dict[str, BaseModuleService] = {
     "external_eval": ExternalEvalService(),
     "course_group": CourseGroupService(),
     "syllabus_rev": SyllabusRevService(),
+    "topic_group": TopicGroupService(),
     "teach_award": TeachAwardService(),
     "lesson_prep": LessonPrepService(),
     "mentor_pair": MentorPairService(),
